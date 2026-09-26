@@ -35,7 +35,7 @@ Build an intelligent system that automatically discovers which companies are tru
 
 **Dynamic Peer Group Discovery Engine** automatically identifies and ranks companies that are most similar to a selected company.
 
-The system follows a two-score approach:
+The system uses two independent scores:
 
 ### 1. 🔍 Similarity Score
 
@@ -58,7 +58,7 @@ A company can therefore be:
 - Highly similar but have a lower strength score
 - Less similar but have a higher strength score
 
-This provides a more informative view than simply ranking companies by one number.
+This provides a more informative view than ranking companies using only one metric.
 
 ---
 
@@ -94,4 +94,4 @@ This provides a more informative view than simply ranking companies by one numbe
              │                             │
              └──────────────┬──────────────┘
                             ▼
-                     Gemini AI Analysis
+                      AI Analysis
