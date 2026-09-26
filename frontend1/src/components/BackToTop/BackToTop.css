@@ -1,0 +1,29 @@
+﻿.back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(124, 108, 255, 0.25);
+  z-index: 999;
+  transition: box-shadow var(--transition-fast);
+}
+
+.back-to-top:hover {
+  box-shadow: var(--accent-glow-strong);
+}
+
+@media (max-width: 480px) {
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+  }
+}

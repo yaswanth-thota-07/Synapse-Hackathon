@@ -1,0 +1,30 @@
+﻿.floating-elements {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.floating-el {
+  position: absolute;
+  opacity: 0.03;
+}
+
+.floating-el--circle {
+  border-radius: 50%;
+  border: 1px solid var(--accent-primary);
+}
+
+.floating-el--square {
+  border-radius: 4px;
+  border: 1px solid var(--accent-secondary);
+}
+
+.floating-el--triangle {
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 26px solid rgba(124, 108, 255, 0.05);
+}
